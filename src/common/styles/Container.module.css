@@ -1,0 +1,9 @@
+.container {
+    border: 1px solid;
+    height: 100%; /*на высоту элемента в котором находится*/
+    width: 80%;
+    margin: 0 auto; /* выровняли контейнер по середине*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
