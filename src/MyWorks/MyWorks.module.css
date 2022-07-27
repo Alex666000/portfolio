@@ -1,19 +1,23 @@
-.skillsBlock {
+.worksBlock {
     height: 100vh;
-    background-color: #b2d7b2;
+    background-color: pink;
 }
-.skillsContainer {
-    /*тут перезапишем стили универсального контейнера - styleСontainer */
+
+.worksContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
+
 .title {
     background-color: #8c8787;
 }
-.skills {
+
+.works {
     border: 1px solid;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+

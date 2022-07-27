@@ -1,0 +1,16 @@
+.distantWorkBlock {
+    height: 100vh;
+    background-color: gold;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+}
+
+.title {
+    background-color: #8c8787;
+}

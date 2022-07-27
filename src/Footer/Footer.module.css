@@ -1,0 +1,19 @@
+.footerContainer {
+    height: 100vh;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.title {
+    background-color: #8c8787;
+}
+
+.blocks {
+    border: 1px solid;
+    display: flex;
+    padding: 10px;
+}

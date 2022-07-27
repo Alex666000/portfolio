@@ -1,9 +1,11 @@
+/*общий контейнер - класс...*/
 .container {
     border: 1px solid;
     height: 100%; /*на высоту элемента в котором находится*/
     width: 80%;
-    margin: 0 auto; /* выровняли контейнер по середине*/
+    margin: 0 auto; /* выровняли контейнер по середине или выравнивать флексами - но так проще*/
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: center; /*выровнять по второстепенной оси элементы*/
     justify-content: space-between;
 }

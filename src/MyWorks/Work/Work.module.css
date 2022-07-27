@@ -1,0 +1,27 @@
+.work {
+    height: 200px;
+    border: 1px solid;
+    min-width: 300px;
+    background-color: #8c8787;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.image {
+    height: 100%;
+    background-color: #8c8787;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+.nameProject {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #b2d7b2;
+}
